@@ -1,2 +1,2 @@
 # beauty-therapist
-This is a capstone project. It is about a mobile beauty and spa services for women. 
+This is a capstone project. It is a website about a mobile beauty-therapist and spa services for women. 
