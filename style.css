@@ -21,6 +21,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    margin-top: 20%;
   }
   
   body {
@@ -103,16 +104,16 @@
     margin-top: 0;
     padding-bottom: 15px;
     margin-bottom: 1px;
-    margin-left: 5%;
+    margin-left: 4%;
     font-family: sans-serif;
     font-weight: 100;
-    font-size: smaller;
+    font-size: 1rem;
   }
   
   .perfect-solution {
     font-family: Cocogoose, sans-serif;
     margin-bottom: 1%;
-    margin-left: 5%;
+    margin-left: 4%;
   }
   
   img {
@@ -153,13 +154,17 @@
     font-size: 22px;
     color: #ec5242;
     font-family: Cocogoose, sans-serif;
-    margin-left: 10%;
+    margin-left: 4%;
     font-weight: bold;
+  }
+
+  .main-title {
+    margin-left: 4%;
   }
   
   .short-description {
-    width: 90%;
-    margin-left: auto;
+    width: 80%;
+    margin-left: 4%;
     margin-right: auto;
     border: #ec5242;
     border-style: solid;
@@ -419,10 +424,8 @@
   }
   
   .footer-img {
-    width: 30%;
-    margin-right: 7.5%;
-    margin-top: auto;
-    margin-bottom: auto;
+    width: 70%;
+    margin: auto;
     border: 1px dashed #272a31;
   }
   
@@ -438,10 +441,12 @@
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+    flex-direction: column;
   }
 
   .footer-content p {
       text-align: left;
+      margin-top: 30%;
   }
   
   .center {
@@ -624,6 +629,7 @@
   
     .pink-section {
       padding-top: 6.5%;
+      margin-top: 0;
     }
   
     .header1 {
@@ -668,7 +674,8 @@
     .perfect-solution,
     .like-us,
     .short-description,
-    h1 {
+    .before-title,
+    .main-title {
       margin-left: 10%;
     }
 
@@ -735,6 +742,21 @@
       background-color: #2e2e2e;
       color: white;
     }
+
+    .footer-content {
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .footer-content p {
+      text-align: left;
+      margin-top: 1.5%;
+  }
   
     .about-title {
       padding-top: 72px;
