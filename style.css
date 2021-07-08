@@ -18,7 +18,7 @@
   .pink-section {
     width: 100%;
     background-color: #d3d3d3;
-    height: 115vh;
+    height: 135vh;
     display: flex;
     flex-direction: column;
   }
@@ -179,6 +179,11 @@
   .about-title {
     margin-top: 1rem;
     padding-top: 20%;
+  }
+
+  .bibi-af {
+    margin-bottom: 10%;
+    width: 40%;
   }
   
   .main-benefits {
@@ -418,6 +423,7 @@
     margin-right: 7.5%;
     margin-top: auto;
     margin-bottom: auto;
+    border: 1px dashed #272a31;
   }
   
   footer {
@@ -453,6 +459,7 @@
     border-width: 1px;
     border-style: solid;
     padding: 1%;
+    margin-bottom: 10%;
   }
   
   .contact {
@@ -476,7 +483,7 @@
   
   .about-logo-title {
     font-family: Cocogoose, sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     width: 65%;
     margin-left: auto;
     margin-right: auto;
@@ -501,6 +508,7 @@
     margin-top: 10%;
     margin-bottom: 12%;
     padding: 2%;
+    background-color: #d3d3d3;
   }
   
   .testimonials-container {
@@ -732,6 +740,11 @@
       text-align: center;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    .bibi-af {
+      margin: auto;
+      width: 20%;
     }
   
     .career-path {
