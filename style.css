@@ -121,7 +121,7 @@
   }
   
   .logo {
-    width: 38%;
+    width: 42%;
     height: 99%;
     margin-right: 27%;
     margin-left: 7%;
@@ -458,8 +458,9 @@
     border: grey;
     border-width: 1px;
     border-style: solid;
-    padding: 1%;
+    padding: 2%;
     margin-bottom: 10%;
+    text-align: left;
   }
   
   .contact {
@@ -579,6 +580,7 @@
     margin-right: 10%;
     transition: transform 0.3s;
     font-weight: 900;
+    width: 7%;
   }
   
   .nav-links-desk:hover {
@@ -749,7 +751,7 @@
   
     .career-path {
       width: 65%;
-      padding: 8px;
+      padding: 1%;
       line-height: 28px;
       margin-top: 40px;
       margin-bottom: 40px;
