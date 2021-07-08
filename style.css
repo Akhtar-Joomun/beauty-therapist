@@ -18,7 +18,7 @@
   .pink-section {
     width: 100%;
     background-color: #d3d3d3;
-    height: 135vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -121,7 +121,7 @@
   }
   
   .logo {
-    width: 42%;
+    width: 44%;
     height: 99%;
     margin-right: 27%;
     margin-left: 7%;
@@ -577,7 +577,7 @@
     margin-top: auto;
     margin-bottom: auto;
     font-family: Lato, sans-serif;
-    margin-right: 10%;
+    margin-right: 11%;
     transition: transform 0.3s;
     font-weight: 900;
     width: 7%;
@@ -658,7 +658,7 @@
     }
 
     .home-text-container {
-        height: 55vh;
+        height: 55%;
       }
   
     .short-description {
