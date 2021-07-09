@@ -1,5 +1,19 @@
 {
-  "dependencies": {
-    "eslint": "^7.29.0"
-  }
+  "name": "beauty-therapist",
+  "version": "1.0.0",
+  "description": "This is a capstone project. It is about a mobile beauty and spa services for women.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akhtar-Joomun/beauty-therapist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akhtar-Joomun/beauty-therapist/issues"
+  },
+  "homepage": "https://github.com/Akhtar-Joomun/beauty-therapist#readme"
 }
