@@ -1,0 +1,795 @@
+@font-face {
+    font-family: Cocogoose, sans-serif;
+    src: url("fonts/Cocogoose.ttf");
+  }
+  
+  .desk {
+    display: none;
+  }
+  
+  .mob {
+    display: block;
+  }
+
+  .marg {
+    margin-top: 12%;
+  }
+  
+  .pink-section {
+    width: 100%;
+    background-color: #d3d3d3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 18vh;
+  }
+  
+  body {
+    margin: 0;
+    background-color: white;
+    font-family: "Lato", sans-serif;
+    text-align: left;
+    width: 100%;
+    font-weight: 400;
+  }
+  
+  header {
+    font-weight: 900;
+    filter: drop-shadow(0 0 16px rgba(64, 83, 252, 0.24));
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    height: 18vh;
+    background-color: white;
+  }
+  
+  nav {
+    display: flex;
+    height: 62px;
+  }
+
+  .rotate-icon .ham-bar1 {
+    -webkit-transform: rotate(-45deg) translate(-2.5vw, 1.875vw);
+    transform: rotate(-45deg) translate(-2.5vw, 1.875vw);
+  }
+  
+  .rotate-icon .ham-bar2 {
+    opacity: 0;
+  }
+  
+  .rotate-icon .ham-bar3 {
+    -webkit-transform: rotate(42deg) translate(-2.8125vw, -2.5vw);
+    transform: rotate(42deg) translate(-2.8125vw, -2.5vw);
+  }
+  
+  
+  .ham {
+    font-style: normal;
+    position: static;
+    color: #fff;
+    letter-spacing: 0.03em;
+    display: flex;
+    margin-left: 7%;
+    margin-top: 4%;
+  }
+  
+  .ham-bar1,
+  .ham-bar2,
+  .ham-bar3 {
+    background-color: #424146;
+    width: 3.5rem;
+    height: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+
+  #toggle-icon {
+    cursor: pointer;
+    display: table;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-family: Cocogoose, sans-serif;
+  }
+  
+  .header2 {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 20vh;
+    flex-direction: column;
+    background-color: #fff;
+  }
+  
+  .header2-content-mob {
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    color: #272a31;
+    transition: transform 0.3s;
+  }
+
+  .header2-content-mob:hover {
+    color: #ec5242;
+    transform: scale(1.25);
+  }
+  
+  .like-us {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-bottom: 15px;
+    margin-bottom: 1px;
+    margin-left: 4%;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+  }
+  
+  .perfect-solution {
+    font-family: Cocogoose, sans-serif;
+    margin-bottom: 1%;
+    margin-left: 4%;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .logo {
+    width: 44%;
+    height: 99%;
+    margin-right: 27%;
+    margin-left: 7%;
+  }
+  
+  .banner-desk {
+    position: relative;
+    height: auto;
+  }
+  
+  .bg-img {
+    opacity: 40%;
+    position: absolute;
+  }
+
+  .before-title {
+    margin: 10px;
+    font-size: 22px;
+    color: #ec5242;
+    font-family: Cocogoose, sans-serif;
+    margin-left: 4%;
+    font-weight: bold;
+  }
+
+  .main-title {
+    margin-left: 4%;
+  }
+  
+  .short-description {
+    width: 80%;
+    margin-left: 4%;
+    margin-right: auto;
+    border: #ec5242;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 16px;
+    color: black;
+    padding: 0.5rem;
+  }
+  
+  h1 {
+    font-size: 42px;
+    color: #ec5242;
+    font-family: Cocogoose, sans-serif;
+    margin-left: 5%;
+  }
+  
+  .about-title {
+    margin-top: 1rem;
+    padding-top: 20%;
+  }
+
+  .bibi-af {
+    margin-bottom: 10%;
+    width: 40%;
+  }
+  
+  .main-benefits {
+    background-image: url("images/benefit-bg.png");
+  }
+  
+  li {
+    display: flex;
+    text-decoration: none;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: initial;
+    margin-block-start: initial;
+    margin-block-end: initial;
+    margin-inline-start: initial;
+    margin-inline-end: initial;
+    padding-inline-start: initial;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .benefits-container {
+    display: grid;
+    grid-gap: 3.5rem;
+    grid-auto-rows: 1fr;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+  }
+  
+  .benefits-small-container {
+    background-color: rgb(255, 255, 255, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    width: 100%;
+    height: 100%;
+    border-width: 2px;
+    border-color: transparent;
+    border-style: solid;
+  }
+  
+  .benefits-small-container:hover {
+    border-color: white;
+  }
+  
+  .benefits-title {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+  }
+
+  .services-title {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 900;
+    color: #272a31;
+  }
+
+  .customers {
+    color:#b1b1b1;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  .bar {
+    background-color: #ec5242;
+    margin: 1rem auto;
+    height: 2px;
+    width: 8%;
+    margin-bottom: 3.5rem;
+  }
+  
+  .benefits-small-container-title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1rem;
+    color: #ec5242;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .benefits-small-container-info {
+    color: white;
+    width: 100%;
+  }
+  
+  .benefit-icons {
+    margin: auto auto;
+    font-size: 30px;
+    color: white;
+  }
+
+  .serv {
+    margin: 25px;
+  }
+
+  .serv-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .serv-text {
+    margin-left: 1rem;
+  }
+
+  .serv-title {
+    color: #ec5242;
+    margin-bottom: 10px;
+  }
+
+  .serv-info {
+    margin-top: 0;
+  }
+  
+  .lang-page-log {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .lang-page-log li {
+    margin: auto 1rem;
+  }
+  
+  .services-container {
+    display: grid;
+    width: 95%;
+  }
+    
+  button {
+    color: white;
+    font-family: "Lato", sans-serif;
+    border-radius: 0;
+    border: none;
+    background-color: transparent;
+    font-weight: 400;
+  } 
+  
+  .customers-container {
+    background-color: #424146;
+  }
+  
+  .footer-container,
+  .footer-container-about {
+    background-color: #2e2e2e;
+    color: white;
+    font-weight: 400;
+    display: flex;
+  }
+  
+  .customers-bar {
+    margin-bottom: 3%;
+  }
+  
+  .footer-img {
+    width: 70%;
+    margin: auto;
+    border: 1px dashed #272a31;
+  }
+  
+  footer {
+    display: grid;
+    grid-auto-rows: 1fr;
+  }
+  
+  .footer-content {
+    width: 80%;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+  }
+
+  .footer-content p {
+      text-align: left;
+      margin-top: 30%;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .career-path {
+    width: 85%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-weight: 400;
+    border: grey;
+    border-width: 1px;
+    border-style: solid;
+    padding: 2%;
+    margin-bottom: 10%;
+    text-align: left;
+  }
+  
+  .contact {
+    width: 65%;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 10%;
+  }
+  
+  .email-add {
+    font-weight: 700;
+    margin-bottom: 5%;
+  }
+  
+  .about-logo {
+    background-color: white;
+    font-size: 1rem;
+  }
+  
+  .about-logo-title {
+    font-family: Cocogoose, sans-serif;
+    font-size: 1.5rem;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+  }
+  
+  .about-logo-info {
+    color: black;
+    font-weight: 400;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .logo-container {
+    border: #272a31;
+    border-width: 1px;
+    border-style: dashed;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 12%;
+    padding: 2%;
+    background-color: #d3d3d3;
+  }
+  
+  .testimonials-container {
+    display: grid;
+  }
+  
+  .testimonials-box {
+    font-family: Cocogoose, sans-serif;
+    border: rgb(240, 237, 237);
+    border-width: 1px;
+    border-style: solid;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    height: 250px;
+    position: relative;
+    background-color: #ec5242;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
+
+  .box1 {
+    margin-top: 20%;
+  }
+
+  .box2 {
+    margin-top: 0;
+  }
+  
+  .testimonials-background {
+    opacity: 25%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+  }
+  
+  .logo-border {
+    width: 50%;
+    border: 1px solid #272a31;
+  }
+  
+  .testimonials {
+    border-top-color: #d3d3d3;
+    border-top-style: solid;
+    border-width: 2px;
+  }
+  
+  .testimonials-title {
+    margin-bottom: 1px;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  .testimonials-info {
+    padding: 2%;
+  }
+  
+  .nav-links-desk {
+    color: #272a31;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: Lato, sans-serif;
+    margin-right: 5.5%;
+    transition: transform 0.3s;
+    font-weight: 900;
+    width: 14%;
+  }
+  
+  .nav-links-desk:hover {
+    color: #ec5242;
+    transform: scale(1.25);
+  }
+  
+  .customers-small-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+  }
+  
+  .customers-img-container {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    min-width: 33.33%;
+    max-width: 50%;
+  }
+  
+  .customers-img {
+    width: 80%;
+    height: 80%;
+  }
+  
+  .none {
+    display: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .desk {
+      display: block;
+    }
+  
+    .mob {
+      display: none;
+    }
+  
+    .pink-section {
+      padding-top: 6.5%;
+      margin-top: 0;
+    }
+  
+    .header1 {
+      width: 100%;
+      height: 30%;
+      background-color: #444242;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  
+    .header1-contents {
+      display: flex;
+      gap: 1.7rem;
+      margin-right: 9.5%;
+      margin-bottom: 0.1rem;
+    }
+  
+    header {
+      background-color: white;
+      height: 87px;
+      display: flex;
+    }
+  
+    nav {
+      height: 62px;
+    }
+  
+    .banner-desk {
+      height: 35vh;
+      background-color: #4b4f56;
+      margin-top: 0;
+    }
+
+    .home-text-container {
+        height: 55%;
+      }
+  
+    .short-description {
+      width: 40%;
+    }
+  
+    .perfect-solution,
+    .like-us,
+    .short-description,
+    .before-title,
+    .main-title {
+      margin-left: 10%;
+    }
+
+    .perfect-solution {
+      margin-top: 2%;
+    }
+
+    .marg {
+        margin-top: 3%;
+        margin-bottom: 3%;
+      }
+  
+    .benefits-container {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 1rem;
+      margin-bottom: 5%;
+    }
+  
+    .benefits-small-container {
+      display: grid;
+      grid-template-columns: 100%;
+    }
+  
+    .benefits-small-container-info {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .serv {
+      margin: 0;
+    }
+  
+    .services-container {
+      width: 75%;
+      grid-auto-rows: 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 50px;
+      margin-bottom: 50px;
+    }
+  
+    .speaker {
+      margin-bottom: 1px;
+    }
+  
+    .speaker-name {
+      font-size: 18px;
+    }
+  
+    .speaker-title {
+      font-size: 20px;
+    }
+  
+    .speaker-info {
+      font-size: 16px;
+    }
+  
+    .footer-img {
+      margin-right: 20%;
+    }
+  
+    .footer-container {
+      background-color: white;
+      color: black;
+    }
+
+    .footer-container-about {
+      background-color: #2e2e2e;
+      color: white;
+    }
+
+    .footer-content {
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .footer-content p {
+      text-align: left;
+      margin-top: 1.5%;
+  }
+  
+    .about-title {
+      padding-top: 72px;
+      margin-bottom: 12px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .bibi-af {
+      margin: auto;
+      width: 20%;
+    }
+  
+    .career-path {
+      width: 65%;
+      padding: 1%;
+      line-height: 28px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+  
+    .about-title-bar {
+      width: 6%;
+    }
+  
+    .about-logo-title {
+      margin-top: 5%;
+      font-size: 2rem;
+    }
+  
+    .about-logo-info {
+      width: 65%;
+      font-size: 1.1rem;
+      font-weight: 400;
+      line-height: 26px;
+    }
+  
+    .logo-container {
+      width: 65%;
+    }
+  
+    .testimonials-container {
+      grid-template-columns: 1fr 1fr;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 75px;
+    }
+
+    .box1 {
+        margin-top: 0;
+      }
+  
+    .customers-small-container {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 2rem;
+    }
+  
+    .customers-img-container {
+      display: flex;
+      justify-content: center;
+      min-width: 100px;
+    }
+  
+    .customers-img {
+      width: 50%;
+      height: auto;
+    }
+  
+    .none {
+      display: none;
+    }
+  }
