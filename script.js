@@ -1,38 +1,23 @@
-const data = [{
-    id: 0,
-    title: 'Makeup',
-    information: 'Get ready to party with professional make-up at home services. Bibi Af has experience with editorial, catwalk and celebrities and are available for you to book at home too.',
-    img: 'images/makeup.jpg',
-  },
-  {
-    id: 1,
-    title: 'Hair',
-    information: 'Bibi Af offers hair treatments at home with no fuss. Why go to the hair salon when you can have a professional hairdresser visit you safely at home?',
-    img: 'images/hair.jpg',
-  },
-  {
-    id: 2,
-    title: 'Massage',
-    information: 'Bibi Af is certified to the highest levels in a range of techniques. She delivers spa-quality, full body massages for ultimate relaxation, without you needing to leave the house.',
-    img: 'images/massage.jpg',
-  },
-  {
-    id: 3,
-    title: 'Nails',
-    information: 'No need to go to a nail bar for your perfect manicure & pedicure. Bibi Af carries a wide range of premium polishes to deliver an immaculate manicure & pedicure at home.',
-    img: 'images/nails.jpg',
-  },
-  {
-    id: 4,
-    title: 'Facial',
-    information: 'Indulge in a luxury mobile facial in the comfort of your home. Bibi Af tailors the treatment to your skin type, bringing the necessary equipments.',
-    img: 'images/facial.jpg',
-  },
-  {
-    id: 5,
-    title: 'Lashes Extension',
-    information: 'Mobile lash extensions, tints and eyebrow shaping carried out by expert therapist in the comfort of your own home. You look good. But you can always look better.',
-    img: 'images/lashes.jpg',
-  },
-  ];
+const ham = document.querySelector('.ham');
+const header2 = document.querySelector('.header2');
+const mob = document.querySelector('.mob');
+
+function display() {
+  header2.style.display
+}
+
+function clickFunction() {
+  const para = document.getElementById('toggle-icon');
+  para.classList.toggle('rotate-icon');
+  if (header2.style.display !== 'flex') {
+    header2.style.display = 'flex';
+    mob.style.backgroundColor = '#fff';
+  } else {
+    header2.style.display = 'none';
+    mob.style.backgroundColor = 'white';
+  }
+}
+
+
+ham.addEventListener('click', clickFunction);
 
